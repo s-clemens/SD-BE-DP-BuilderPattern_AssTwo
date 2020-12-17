@@ -5,3 +5,5 @@ public enum HouseType {
     HOUSE,
     VILLA
 }
+
+

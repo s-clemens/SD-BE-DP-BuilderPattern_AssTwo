@@ -21,4 +21,20 @@ public class HouseC {
     // Minimaal 1 kamer is verplicht
     private List<Room> rooms;
 
+    public HouseC(Address address, HouseType houseType, List<Room> rooms) {
+        this.address = address;
+        this.houseType = houseType;
+        this.rooms = rooms;
+    }
+
+    @Override
+    public String toString() {
+        return "HouseC{" +
+                "address=" + address +
+                ", houseType=" + houseType +
+                ", garden=" + garden +
+                ", garage=" + garage +
+                ", rooms=" + rooms +
+                '}';
+    }
 }
